@@ -2,42 +2,117 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Parco Campeggio - Italiano</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Regole del Parco</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 2rem;
+      min-height: 100vh;
+    }
+    .content {
+      width: 100%;
+      max-width: 600px;
+    }
+    .logo {
+      display: block;
+      margin: 0 auto 1rem auto;
+      width: 150px;
+    }
+    h1 {
+      text-align: center;
+      color: #004080;
+    }
+    .box-white {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+      margin-bottom: 1.5rem;
+    }
+    .box-orange {
+      background: #ffe0b2;
+      padding: 1.5rem;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+    .box-orange img {
+      width: 80px;
+      margin-bottom: 1rem;
+    }
+    ul {
+      text-align: left;
+      padding-left: 1.2rem;
+      color: #333;
+      line-height: 1.6;
+    }
+  </style>
 </head>
 <body>
-  <div class="container">
-    <!-- Logo e Titolo -->
-    <img src="logo.png" alt="Logo" class="logo">
-    <h1>Regole del Parco</h1>
+  <div class="content">
+    <img src="MiraLodgePark LOGOTIPO_horizontal.png" alt="Logo do Parque" class="logo">
+    <h1>Regole di base del parco</h1>
 
-    <!-- Casella bianca: Regole -->
+    <!-- Caixa branca: Rules -->
     <div class="box-white">
+      <h2>Info</h2>
+      <p><strong>Check-in:</strong></p>
       <ul>
-        <li>Rispettare gli orari di silenzio.</li>
-        <li>Non accendere fuochi al di fuori delle aree consentite.</li>
-        <li>Mantenere il parco pulito e ordinato.</li>
-        <li>Seguire le istruzioni del personale del parco.</li>
+        <li>Campeggio: dalle 15:00 alle 19:00</li>
+        <li>Sistemazione: dalle 16:00</li>
+      </ul>
+
+      <p><strong>Check-out:</strong></p>
+      <ul>
+       <li>Campeggio: fino alle 14:00</li>
+        <li>Alloggi: fino alle 11:00</li>
+      </ul>
+
+      <p><strong>Partenza tardiva</strong> consentito fino a 10€ per soggiorno, precedentemente pagato alla reception (2h)</p><ul>
+        <li>Campeggio: fino alle 16:00</li>
+        <li>Alloggi: fino alle 13:00</li>
+      </ul>
+
+      <p><strong>Ore di silenzio:</strong>23:00 alle 07:00</p>
+      <p>Durante le ore di silenzio, non è permesso entrare o uscire dal parco in auto o guidare all'interno del parco.</p>
+
+      <p><strong>Scatole Elettriche:</strong></p>
+      <ol>
+        <li>Chiama questo contatto: 00351 910257147</li>
+        <li>Fornisci il numero della scatola e un membro del personale del parco aprirà la scatola</li>
+      </ol>
+      <ul><li>È necessario un adattatore CEE 3p maschio</li>
+        <li>Il parco ha l'adattatore disponibile per il noleggio a seconda della disponibilità</li></ul>
+
+     <p><strong>‼️Attenzione:</strong> Il terreno è sabbioso, tieni l'auto nei posti auto designati o sulla strada.</p>
+      <p>In caso che la macchina si blocchi, il parco non è responsabile dei costi di traino esterni.</p>
+
+    <!-- Caixa branca: Mapa -->
+    <div class="box-white">
+      <h2>Mappa del parco</h2>
+      <img src="1.png" alt="Mapa do Parque" style="max-width:100%; border-radius:12px;">
+      <p><strong>Sottotitolo:</strong></p>
+      <ul>
+        <li>1 - Ingresso</li>
+        <li>2 - Parcheggio</li>
+        <li>3 - Ristorante</li>
+        <li>4 - Bagni</li>
+        <li>5 - Area Barbecue</li>
+        <li>6 - Stazione di Servizio Camper</li>
+        <li>7 - Piazzole</li>
+        <li>8 - Piscina</li>
+        <li>9 - Bar della Piscina</li>
+        <li>10 - Parco Giochi</li>
+        <li>11 - Bungalow</li>
+        <li>12 - Tende Tipi</li>
       </ul>
     </div>
-
-    <!-- Casella arancione: Avviso Protezione Civile -->
-    <div class="box-warning">
-      <img src="proteccivil.png" alt="Protezione Civile" class="warning-logo">
-      <p>Attenzione: Rischio incendio fino al 20/08/2025 alle 18:00. Seguire le istruzioni della Protezione Civile.</p>
-    </div>
-
-    <!-- Scatola bianca: Mappa + Legenda -->
-<div class="box-white">
-  <h2>Mappa del parco</h2>
-  <img src="mapa.png" alt="Mappa del parco">
-  <p>Legenda:</p>
-  <ul>
-    <li>1 - Ingresso</li>
-    <li>2 - Parcheggio</li>
-    <li>3 - Toilette</li>
-    <li>4 - Aree tende</li>
-    <li>5 - Area ricreativa</li>
-  </ul>
-</div>
+  </div>
+</body>
+</html>
